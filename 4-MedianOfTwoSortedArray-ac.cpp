@@ -1,3 +1,12 @@
+/*
+Thinking:
+The median divide a set into two equal length subsets.So the median of two sorted arrays means the number of elements smaller than
+it equal to the number of elements bigger than it.(If we divide nums1 into left1 and right1,divide nums2 into left2 and right2,
+so left1.size()+left2.size() == right1.size() + right2.size())
+We just need to find left1.size() by binary searching.
+*/
+
+
 class Solution {
 public:
     double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2) {
