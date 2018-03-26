@@ -1,3 +1,11 @@
+/*
+Thinking:
+For each element,check that its left and right elements are equal.
+If the element behind it is the same as it,skip.Increase length of substring
+at the same time.
+*/
+
+
 class Solution {
 public:
     string longestPalindrome(string s) {
