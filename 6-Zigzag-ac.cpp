@@ -1,3 +1,8 @@
+/*
+Thinking:
+Draw the string in the vertical zigzag.Then read it in every row.
+*/
+
 class Solution {
 public:
     string convert(string s, int numRows) {
