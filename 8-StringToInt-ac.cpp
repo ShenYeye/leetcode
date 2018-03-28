@@ -1,7 +1,9 @@
 /*
 Thinking:
 (We can use sync_with_stdio(false) to reduce runtime greatly.
-It eliminates iostream's input and output cache.)
+It eliminates iostream's input and output cache. 
+https://blog.csdn.net/qq_33248299/article/details/52144485
+https://www.cnblogs.com/PrayG/p/5749832.html)
 We should consider every possible situation:
 empty string;
 sign of number;
