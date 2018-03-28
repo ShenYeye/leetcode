@@ -8,7 +8,11 @@ return (res > INT_MAX || res < INT_MIN) 0:res;
 
 also can do it.But it use 'long long'.
 */
-
+static int some = [](){
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+    return 0;
+}();
 class Solution {
 public:
     int reverse(int x) {
